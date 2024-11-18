@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TheEmployeeAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TheEmployeeAPI.Controllers.EmployeesController.GetAllEmployees(TheEmployeeAPI.Employees.GetAllEmployeesRequest)">
+            <summary> Gets All Employees </summary>
+            <returns> Returns an array of all employees. </returns>
+        </member>
+        <member name="M:TheEmployeeAPI.Controllers.EmployeesController.GetEmployeeById(System.Int32)">
+            <summary> Get a single employee
+                      by Id number
+            </summary>
+            <param name="id"> The id of the employee </param>
+            <returns>  Returns a single employee record. </returns>
+        </member>
+        <member name="T:TheEmployeeAPI.Migrations.FixStuff">
+            <inheritdoc />
+        </member>
+        <member name="M:TheEmployeeAPI.Migrations.FixStuff.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TheEmployeeAPI.Migrations.FixStuff.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TheEmployeeAPI.Migrations.FixStuff.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
